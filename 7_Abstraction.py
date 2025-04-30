@@ -18,12 +18,12 @@ class Transport(ABC):
     @abstractmethod
     def start(self):
         pass
-    @abstractmethod
     
+    @abstractmethod
     def stop(self):
         pass
-    @abstractmethod
     
+    @abstractmethod
     def fuel_up(self):
         pass
 # ---
