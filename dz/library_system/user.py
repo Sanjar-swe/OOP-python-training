@@ -13,7 +13,7 @@ class User:
             return
         # Проверка: пользователь уже взял 3 книги
         if len(self.borrowed_books) >= 3:
-            print(f"\n🚫 Пользователь {self.name} уже взял 3 книги.")
+            print(f"\n🚫 Пользователь {self.name} не может взять больше 3 книг.")
             return
 
         # Проверка: книга доступна

@@ -3,7 +3,8 @@ from book import Book
 from user import User
 
 class Library:
-    def __init__(self):
+    def __init__(self, name: str):
+        self.name: str = name
         self.books: List[Book] = []
         self.users: Dict[str, User] = {}
 

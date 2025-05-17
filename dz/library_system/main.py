@@ -4,7 +4,7 @@ from user import User
 from library import Library
 
 # создаём библиотеку
-lib = Library()
+lib = Library("Центральная библиотека")
 
 # создаём книги
 book1 = Book("1984", "George Orwell", 9.99)
